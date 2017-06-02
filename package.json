@@ -64,8 +64,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "lint": "eslint --ext .js --ext .jsx src",
-    "postinstall": "git subtree add --prefix src/fusion https://github.com/areai51/fusion.git master",
-    "push-fusion": "git subtree push -P src/fusion https://github.com/areai51/fusion.git master"
+    "postinstall": "git subtree add --prefix src/fusion https://github.com/dkvellin/fusion.git master",
+    "push-fusion": "git subtree push -P src/fusion https://github.com/dkvellin/fusion.git master"
   },
   "jest": {
     "collectCoverageFrom": [
